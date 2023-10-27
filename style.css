@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #2F2E41;
+    min-width: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px;
+}   
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 46px
+}
+
+a {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+
+h1 span {
+    color: #00BFA6;
+}
+
+p {
+    color: #c2c2c2;
+
+}
